@@ -21,10 +21,10 @@ This is a Spring Boot project built with Maven as the dependency manager.
 
 This API has been tested using Postman.
 
-* `GET /api/HelloWorld`: Returns a greeting with an optional "nombre" parameter (default is "UNKNOWN").
-    * **Example (Postman):** Send a GET request to `http://localhost:9000/api/HelloWorld` or `http://localhost:9000/api/HelloWorld?nombre=YourName`.
-* `GET /api/HelloWorld2/{nombre}`: Returns a greeting with an optional "nombre" parameter in the path.
-    * **Example (Postman):** Send a GET request to `http://localhost:9000/api/HelloWorld2` or `http://localhost:9000/api/HelloWorld2/YourName`.
+* `GET /HelloWorld`: Returns a greeting with an optional "nombre" parameter (default is "UNKNOWN").
+    * **Example (Postman):** Send a GET request to `http://localhost:9000/HelloWorld` or `http://localhost:9000/api/HelloWorld?nombre=YourName`.
+* `GET /HelloWorld2/{nombre}`: Returns a greeting with an optional "nombre" parameter in the path.
+    * **Example (Postman):** Send a GET request to `http://localhost:9000/HelloWorld2` or `http://localhost:9000/api/HelloWorld2/YourName`.
 
 ## Maven Commands
 
